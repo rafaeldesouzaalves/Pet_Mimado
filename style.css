@@ -5,6 +5,12 @@
   to { opacity: 1; }
 }
 
+@media (min-widht: 600px) {
+    body{
+        flex-basis: 33%;
+    }
+}
+
 :root {
     --font0: Host Grotesk, Arial, Helvetica;
 }
@@ -92,7 +98,8 @@ a:hover{
     text-align: center;
     font-family: Host Grotesk;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
+    background-color: transparent;
 }
 
 #pesquisar{
@@ -156,6 +163,7 @@ a:hover{
     margin-left: 890px;
     margin-top: -37px;
     line-height: 1.2em;
+    width: 870px;
 }
 
 #Q1{
@@ -166,6 +174,8 @@ a:hover{
     text-align: justify;
     margin-left: 870px;
     margin-top: -20px;
+    width: 850px;   
+    line-height: 1.2em;
 }
 
 #Q2{
@@ -175,6 +185,8 @@ a:hover{
     font-weight: bolder;
     text-align: justify;
     margin-left: 870px;
+    width: 850px;
+    line-height: 1.2em;
 }
 
 #Q3{
@@ -184,4 +196,6 @@ a:hover{
     font-weight: bolder;
     text-align: justify;
     margin-left: 870px;
+    width: 850px;
+    line-height: 1.2em;
 }
